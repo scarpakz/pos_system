@@ -1,0 +1,68 @@
+.login .col-md-4 h1{
+  text-align: center;
+}
+.login .col-md-4 h3{
+  text-align: center;
+}
+.login .col-md-4 {
+  background-color: #fff;
+  margin: 20px 0;
+  border-radius: 5px;
+  font-family: sans-serif;
+}
+
+.login .col-md-4 .isd-login-form input{
+  display: block;
+  width: 100%;
+  padding:10px;
+  font-size:16px;
+  margin-bottom: 5px;
+}
+.login .col-md-4 .isd-login-form input:focus{
+  border: solid 2px darkblue;
+  border-radius: 5px;
+  transition: .4s;
+}
+.login .isd-login-form .btn{
+  margin-top:20px;
+}
+.isd-login-footer{
+  margin-top: 30%;
+}
+
+/* DASHBOARD HEADER */
+.admin-dashboard ul{
+  margin-top: 20px;
+}
+.admin-dashboard ul a{
+  list-style: none;
+  color: #333;
+  font-size: 16px;
+  transition: .4s;
+  text-decoration: none;
+}
+.admin-dashboard ul a:hover{
+  color: orange;
+}
+.admin-dashboard ul li{
+  display: inline;
+  padding:15px;
+  border-right: solid 1px #888;
+}
+
+/* DASHBOARD ITEM */
+.items form {
+  margin: 20px 0;
+}
+.items form .group-add {
+  display: block;
+  margin: 10px 0;
+}
+.items form .group-add input{
+  padding: 10px;
+  display:block;
+  width: 100%;
+}
+.search-item form .group-add .btn{
+  margin-top: 10px;
+}
